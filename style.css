@@ -12,7 +12,7 @@ body{
 }
 .home-div1, .home-div2{
     width: 50%;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .home-div2 img{
     width: 90%;
@@ -65,7 +65,8 @@ body{
     margin-right: 7%;
     padding-top: 10%;
 }
-.about-div2 h2{
+.about-div2 h2,
+.recipy-div1 h2{
     font-size: 40px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.664);
@@ -77,4 +78,64 @@ body{
     padding-bottom: 70px;
     line-height: 30px;
 }
+/*Recipies Section*/
+.recipy{
+    margin-top: 50px;
+}
+.recipy-div1{
+    text-align: center;
+}
+.recipy-div1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.recipy-div2{
+    display: flex;
+    margin-top: 40px;
+}
+.food-cart-one, .food-cart-two, .food-cart-three{
+    width: 21%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 30px;
+}
+.food-cart-one{
+    margin-left: 130px;
+}
+.food-cart-two{
+    margin-left: 70px;
+}
+.food-cart-three{
+    margin-left: 70px;
+}
+.food-cart-one img,
+.food-cart-one p,
+.food-cart-two img,
+.food-cart-two p,
+.food-cart-three img,
+.food-cart-three p {
+    width: 100%;
+}
+.food-cart-one h3, .food-cart-two h3, .food-cart-three h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.food-cart-one p,
+.food-cart-two p,
+.food-cart-three p {
+   font-size: 20px;
+   color: grey;
+   line-height: 30px;
+}
+
+/*Footer Section
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+footer h2{
+    font-size: ;
+}
+*/
 

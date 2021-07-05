@@ -129,13 +129,26 @@ body{
    line-height: 30px;
 }
 
-/*Footer Section
+/*Footer Section*/
 footer{
     text-align: center;
     margin-top: 100px;
+    background: black;
+    padding: 20px;
 }
 footer h2{
-    font-size: ;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
 }
-*/
+.additional-color{
+    color: orange;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
 

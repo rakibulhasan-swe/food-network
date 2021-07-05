@@ -8,7 +8,7 @@ body{
 }
 .home-div1{
    margin-top: 100px;
-   margin-left: 150px;
+   margin-left: 120px;
 }
 .home-div1, .home-div2{
     width: 50%;
@@ -25,7 +25,7 @@ body{
 .extra-color{
     color: orange;
 }
-.home-div1 a{
+.home-div1 a, .about-div2 a{
     text-decoration: none;
     background-image: linear-gradient(orange, orangered);
     padding: 20px 38px;
@@ -41,3 +41,40 @@ body{
     padding-bottom: 40px;
     line-height: 30px;
 }
+
+/*About section*/
+.about{
+    background-image: url("images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+.about img{
+    width: 60%;
+}
+.about-div1,
+.about-div2{
+    width: 40%;
+}
+.about-div1{
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-top: 7%;
+}
+.about-div2{
+    margin-right: 7%;
+    padding-top: 10%;
+}
+.about-div2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.664);
+}
+.about-div2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    padding-bottom: 70px;
+    line-height: 30px;
+}
+

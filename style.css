@@ -1,5 +1,43 @@
-header{
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.flexible{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+.home-div1{
+   margin-top: 100px;
+   margin-left: 150px;
+}
+.home-div1, .home-div2{
+    width: 50%;
+    padding-top: 5%;
+}
+.home-div2 img{
+    width: 90%;
+}
+.home-div1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.664);
+}
+.extra-color{
+    color: orange;
+}
+.home-div1 a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, orangered);
+    padding: 20px 38px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+}
+.home-div1 p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    padding-bottom: 40px;
+    line-height: 30px;
 }

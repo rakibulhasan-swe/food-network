@@ -3,6 +3,37 @@ body{
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
+}
+.logo{
+    color: white;
+    margin-right: auto;
+    width: 60px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+li, a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 18px;
+}
+li a:hover{
+    color: orange;
+}
+
+/*Home section*/
 .flexible{
     display: flex;
 }
@@ -12,7 +43,6 @@ body{
 }
 .home-div1, .home-div2{
     width: 50%;
-    padding-top: 4%;
 }
 .home-div2 img{
     width: 90%;
@@ -80,7 +110,7 @@ body{
 }
 /*Recipies Section*/
 .recipy{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .recipy-div1{
     text-align: center;
@@ -149,6 +179,7 @@ footer p{
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 20px;
+    font-weight: 500;
 }
 
 

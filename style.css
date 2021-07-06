@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -7,10 +10,9 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: black;
+    background:whitesmoke;
 }
 .logo{
-    color: white;
     margin-right: auto;
     width: 60px;
     margin-left: 120px;
@@ -22,7 +24,7 @@ ul{
 li, a{
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: #111;
     text-decoration: none;
 }
 .nav-links li{
@@ -30,7 +32,10 @@ li, a{
     padding: 0px 18px;
 }
 li a:hover{
-    color: orange;
+    color: orangered;
+}
+.active{
+    color: orangered;
 }
 
 /*Home section*/
@@ -158,11 +163,35 @@ li a:hover{
    color: grey;
    line-height: 30px;
 }
+/*Contact section*/
+.contact{
+    display: flex;
+    margin-top: 90px;
+    background: whitesmoke;
+}
+.contact-map, .contact-details{
+    width: 40%;
+    padding: 5%;
+}
+.contact-map{
+    margin-left: 70px;
+}
+.contact-details h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact-details h4{
+    color: orangered;
+    font-size: 20px;
+}
+.contact-details p{
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /*Footer Section*/
 footer{
     text-align: center;
-    margin-top: 100px;
     background: black;
     padding: 20px;
 }
@@ -180,6 +209,9 @@ footer p{
     line-height: 20px;
     padding-bottom: 20px;
     font-weight: 500;
+}
+footer span{
+    color: orangered;
 }
 
 
